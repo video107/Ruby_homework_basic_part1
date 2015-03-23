@@ -1,7 +1,7 @@
 puts "Please input a integer from 0~100"
 number = gets.chomp.to_i
 
-case
+case 
   when number <= 0
     puts "your number is smaller or equal to 0"
   when number <= 50
@@ -13,6 +13,3 @@ case
   else
     puts "I do not know what you are typing"
   end
-
-
-
